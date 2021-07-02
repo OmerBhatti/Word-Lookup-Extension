@@ -1,0 +1,28 @@
+{
+  "name": "Word Lookup",
+  "description": "Select the word to lookup its meaning",
+  "author": "Omer Bhatti",
+  "version": "0.0.1",
+  "manifest_version": 2,
+
+  "browser_action": {
+    "default_popup":"popup.html",
+    "default_icon":"/assets/images/icon.png",
+    "default_title":"Lookup"
+  },
+
+  "icons":{
+    "300":"/assets/images/icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "background":{
+    "scripts":["background.js"]
+  }
+}

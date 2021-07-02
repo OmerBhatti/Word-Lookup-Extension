@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <title>Word Lookup</title>
+      <link rel="stylesheet" href="assets/style.css">
+      <meta charset="UTF-8">
+</head>
+
+<body>
+      <div class="container">
+            <div class="logo"><h2>Word <span>Lookup</span></h2></div>
+            <p id="error"></p>
+            <div id="result">
+                  <h3 class="font16" id="selected"></h3>
+                  <div>
+                        <p><i id="type"></i> <i id="phonetic"></i> <span class="font16" id="speak">🔊</span></p>
+                        <audio id="audio" controls="controls" src="#">
+                              Your browser does not support the HTML5 Audio element.
+                        </audio>
+                  </div>
+                  <div class="font16"><span><b>Definition : </b></span><span id="meaning"></span></div>
+            </div>
+      </div>
+      <p class="attribute">Made with 💖 by <a href="https://omerbhatti.github.io" target="_blank">Omer Bhatti</a></p>
+</body>
+<script src="assets/index.js"></script>
+
+</html>

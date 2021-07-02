@@ -1,0 +1,51 @@
+:root{
+    --mainColor : rgb(206, 0, 0);
+}
+*{
+    margin:0;
+    padding:0;
+}
+.font16{
+    font-size:16px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 5px;
+}
+h2 span{
+    color:var(--mainColor);
+}
+.container{
+    padding:10px 20px;
+    width:350px;
+}
+#phonetic{
+    color:blue;
+}
+#result , #audio{
+    display: none;
+}
+#speak{
+    cursor: help;
+}
+#error{
+    margin-top:10px;
+    color: red;
+}
+.attribute{
+    text-align: center;
+    font-size:14px;
+    padding:10px 0px;
+    border-top: 1px solid rgb(109, 109, 109);
+}
+.attribute a{
+    color: var(--mainColor);
+    font-weight: 500;
+    text-decoration: none;
+}
+.logo{
+    width: 135px;
+    padding-top: 3px;
+    border: 2px solid var(--mainColor);
+    margin: 0px auto;
+}
